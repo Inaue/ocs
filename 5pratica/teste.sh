@@ -7,4 +7,3 @@ diagonal=$(echo "sqrt($diagonal)" | bc -l)
 echo A diagonal do paralelepipedo mede $diagonal
 unset a b c diagonal
 
-
