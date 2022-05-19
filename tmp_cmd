@@ -1,0 +1,22 @@
+    1  cd ~
+    2  mkdir Coltec6
+    3  touch Coltec6/permissao.txt
+    4  ls -l Coltec6/
+    5  chmod 645 Coltec6/permissao.txt 
+    6  ls -l Coltec6/
+    7  chmod 005 Coltec6/permissao.txt 
+    8  ls -l Coltec6/
+    9  chmod 055 Coltec6/permissao.txt 
+   10  ls -l Coltec6/
+   11  chmod 004 Coltec6/permissao.txt 
+   12  ls -l Coltec6/
+   13  chmod 777 Coltec6/permissao.txt 
+   14  ls -l Coltec6/
+   15  chmod 644 Coltec6/permissao.txt 
+   16  ls -l Coltec6/
+   17  mkdir cow cowtec cowtec1 cowtec2 cwx1 cwx3
+   18  ls ~
+   19  ls -lah cow*
+   20  rm -r cow*
+   21  ls ~
+   22  history >> tmp_cmd
