@@ -1,22 +1,22 @@
 #!/bin/bash
 
-tr=$1
+termos=50
 soma=0
-fat=1
-den=0
-sin=-1
+fatorial=1
+denominador=0
+sinal=-1
+fracao=0
+termo=1
 
-for tri in $(seq $tr)
+for termo in $(seq $termos)
 do
-	fat=$[fat*tri]
-	den=$[(2*den)+1] # den = f(tri) = (2^tri) - 1
-	sin=$[-sin]
-	fra=$(echo $fat/$den | bc -l)
-	fra=$(echo $sin*$fra | bc -l)
-#	soma=$(echo soma+(sin*fra) | bc -l)
-	echo $fra
+	fatorial=$(echo "$fatorial*$termo" | bc -l)
+	denominador=$[(2*denominador)+1] # denominador = (2^termo) - 1
+	sinal=$[-sinal]
+	fracao=$(echo "scale = 5; $sinal*($fatorial/$denominador)" | bc -l)
+	soma=$(echo "$soma+$fracao" | bc -l)
 done
 
-echo A soma dos $tri termos da sequencia eh $soma
-unset tri tr soma fat den sin fra
+echo A soma dos $termos termos da sequencia eh $soma
+unset termo termos soma fatorial denominador sinal fracao
 
