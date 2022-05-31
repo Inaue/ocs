@@ -18,16 +18,16 @@ function diagLelepi ()
 
 function mdc2Num ()
 {
-	num1=$1
-	num2=$2
+	num1=$[$1]
+	num2=$[$2]
 	resto=$[$1%$2]
-	while [ $resto -ne 1 ]
+	while [ $resto -ne 0 ]
 	do
 		num1=$num2
 		num2=$resto
 		resto=$[$num1%$num2]
 	done
-	mdc=resto
+	mdc=$num2
 }
 
 select calculo in "Diagonal do Paralelepipedo" "MDC de 3 Numeros" "Sair"
@@ -47,5 +47,5 @@ do
 	esac
 done
 
-unset calculo a b c diagonal
+unset calculo a b c diagonal num1 num2 mdc
 
