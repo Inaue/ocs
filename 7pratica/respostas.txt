@@ -1,0 +1,16 @@
+1.
+	a. O Brackets possui uma interface mais amigavel para o usuario (principalmente aquele que ja esta acostumado com ambientes de desenvolvimento semelhantes: com abas, parte lateral, etc), na medida em que permite editar documentos utilizando o acessorio 'mouse' e nao necessita de alternar entre modos (como no vim).
+	b. Para começar e codificar em C/C++/Python, o editor Brackets eh a melhor escolha, na medida em que o minimo de conhecimento necessario para editar um arquivo com ele eh reduzido. Alem disso, este pode ser adquirido por meio de intuicao.
+	c. Com o fim de produzir textos, o maior conjunto de ferramentas se encontra no Vim, contudo o Brackets possibilita recursos visuais indisponiveis no Vim (como escolha de cor no CSS ou encontrar declaracao de funcao por seu nome).
+	d. 
+	e. O Brackets pode ser utilizado na web com sites como Phoenix e Turbo NET. Contudo por intermedio de ambientes web como o Gitpod, o Vim tambem eh acessivel na web.
+2. Como a interface do Vim eh de linha de comando, as estruturas para executa-lo sao menores que as bibliotecas, scripts e executaveis necessarios para possibilitar o funcionamento do brackets.
+3. Expressoes regulares sao conjuntos de metacaracteres utilizado para se referir a variados elementos sem precisar enumerar cada um deles.
+4. 
+6. Apenas o Vim possui indentacao automatica do texto.
+7. O Vim permite, por meio do reconhecimento de sintaxe, editar textos a serem processados pelo LaTeX.
+8. Eh possivel 
+9. Eh possivel mapear as teclas de atalho do Brackets alterando o arquivo 'keymap.json' (reprogramando-o com Javascript).
+10. O Bracket possui integracao com o Vim.
+
+
