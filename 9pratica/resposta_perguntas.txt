@@ -1,0 +1,3 @@
+- Os atalhos criados para facilitar a codificacao em HTML se tornaram desnecessarios, pois alem de realizarem a mesma funcao que o 'completion', restringem-se a um pequeno numero de tags (neste caso, precisaria criar um atalho novo para cada estrutura de uso frequente). Ademais, os atalhos sao especificos do ambiente de desenvolvimento do programador (necessita de copiar e colar as configuracoes em outro computador para usar nele), enquanto o auto-completar esta implementado nativamente no Vim, sendo desnecessario realizar muitas configuracoes para sua utilizacao.
+- E possivel utilizar o 'completion' para a linguagem C e Java!
+
