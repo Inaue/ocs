@@ -17,7 +17,7 @@ enddef
 def Cosseno(n: float): float
 	var cosseno = 0.0
 	
-	for i in range(1, 20)
+	for i in range(1, 11)
 		var par = 2 * (i - 1)
 		cosseno += pow(-1, i + 1) * pow(n, par) / Fatorial(par)
 	endfor
